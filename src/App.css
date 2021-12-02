@@ -136,11 +136,65 @@
 
 .nav a {
   margin-top: 0px;
-  /* position: absolute;  */
   z-index: 4;
   color: #00EAFA; 
 }
 
 .banners img {
   display: block;
+}
+
+.square {
+  border: solid 2px;
+  border-color: rgb(203, 199, 200, 0.8);
+  width: 45%;
+  height: 65%;
+  /* background: #CBC7C8; */
+  position: absolute; 
+  z-index: 4;
+  /* opacity: .8; */
+  background-color: rgb(203, 199, 200, 0.8);
+}
+
+.features-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* padding: 10px; */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.grid-item {
+  grid-row-gap: 50px;
+  /* padding: 20px; */
+  font-size: 2vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-item p {
+  text-align: center;
+  color: black;
+  font-size: 1vw;
+  font-family: Overlock, sans-serif;
+  max-width: 140px;
+}
+
+.grid-item h3 {
+  text-align: center;
+  color: white;
+  font-family: Overlock-bold, sans-serif;
+  font-size: 3vw;
+  z-index: 5;
 }

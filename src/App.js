@@ -30,7 +30,7 @@ let navbar = <ul className="nav">
                 <li><a href="#features"> <button type="button" className="btn-circle "><span> Features </span></button> </a></li>
                 <li><a href="#memberships"> <button type="button" className="btn-circle "><span> Memberships </span></button> </a></li>
                 <li><a href="#about"> <button type="button" className="btn-circle "><span> About </span></button> </a></li>
-                <li><a href="https://dashboard.globeboarding.com/login"> <button type="button" className="btn-circle "><span> Manage Subscription </span></button> </a></li>
+                <li><a href="https://dashboard.globeboarding.com/login"> <button type="button" className="btn-circle "><span> Account </span></button> </a></li>
               </ul>
 
   let globeboardingImage = <img src={transparentLogo} alt='logo' className="brand-img"/>
@@ -60,7 +60,19 @@ let fourthBanner = <img src={banner4} alt='banner4' className='bkgrnd'/>
 
 let features =  
 <div className="banners" id="features"> 
+  <section className="parent-bg">
   {secondBanner}
+    <div className="square">
+        <div className="grid-container">
+          <div className="grid-item"><h3>$500+<p>Average savings per booked flight</p></h3></div>
+          <div className="grid-item"><h3>Free<p>Learn to travel for free with credit cards</p></h3></div>
+          <div className="grid-item"><h3>1 on 1<p>1 on 1 support for your travel and credit needs</p></h3></div> 
+          <div className="grid-item"><h3>800+<p>Start boosting your credit score</p></h3></div>
+          <div className="grid-item"><h3>All<p>We support all major airlines, cruise lines, and lodgings</p></h3></div>
+          <div className="grid-item"><h3>All 7<p>We support travel to and from all 7 continents</p></h3></div>
+      </div>
+    </div>
+  </section>
 </div>
 
 
