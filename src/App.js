@@ -1,14 +1,11 @@
 import transparentLogo from './assets/globeboarding-transparent.png'
 import mountain from './assets/background-mountain.mp4'
-// import { Dimensions, Platform, PixelRatio } from 'react-native';
 
 import './App.css';
 import Features from './Features.js';
 import Memberships from './Memberships.js'
 import About from './About.js'
 import React, { Component } from 'react';
-import useWindowDimensions from './WindowSizer.js'
-
 class App extends React.Component{
 
   constructor(props) {
@@ -20,17 +17,6 @@ class App extends React.Component{
 
 
   render() { 
-
-  const Component = () => {
-    const { height, width } = useWindowDimensions();
-
-    return (
-      // <div>
-      //   width: {width} ~ height: {height}
-      // </div>
-      <About height={height} width={width}/>
-    );
-  }
 
   let mountainVideo =     
   <video autoPlay loop muted className="bkgrnd" id="video-bg"> 
@@ -46,11 +32,6 @@ let navbar = <ul className="nav">
               </ul>
 
   let globeboardingImage = <img src={transparentLogo} alt='logo' className="brand-img"/>
-  
-  
-  // let joinUsButton = 
-  // <div className='join-us'> <a href="#memberships"> <button type="button" className="btn-circle "><span> Memberships </span></button> </a> </div>
-
 
   let slogan = 
   <span className="slogan">
@@ -73,26 +54,9 @@ let navbar = <ul className="nav">
       {headerPage}
       <Features/>
       <Memberships/>
-      {/* <About/> */}
-      <Component/>
+      <About/>
     </div>
   );
 }
 }
-
-// const {
-//   width: SCREEN_WIDTH,
-//   height: SCREEN_HEIGHT,
-// } = Dimensions.get('window');
-  
-// const scale = SCREEN_WIDTH / 320;
-
-// export function normalize(size) {
-//   const newSize = size * scale 
-//   if (Platform.OS === 'ios') {
-//     return Math.round(PixelRatio.roundToNearestPixel(newSize))
-//   } else {
-//     return Math.round(PixelRatio.roundToNearestPixel(newSize)) - 2
-//   }
-// }
 export default App;
