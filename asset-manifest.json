@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/globesite/static/css/main.3fee5aec.chunk.css",
-    "main.js": "/globesite/static/js/main.56019152.chunk.js",
-    "main.js.map": "/globesite/static/js/main.56019152.chunk.js.map",
+    "main.css": "/globesite/static/css/main.8672dad2.chunk.css",
+    "main.js": "/globesite/static/js/main.cfa98462.chunk.js",
+    "main.js.map": "/globesite/static/js/main.cfa98462.chunk.js.map",
     "runtime-main.js": "/globesite/static/js/runtime-main.34fa7539.js",
     "runtime-main.js.map": "/globesite/static/js/runtime-main.34fa7539.js.map",
-    "static/js/2.44136ed2.chunk.js": "/globesite/static/js/2.44136ed2.chunk.js",
-    "static/js/2.44136ed2.chunk.js.map": "/globesite/static/js/2.44136ed2.chunk.js.map",
+    "static/js/2.98f936a0.chunk.js": "/globesite/static/js/2.98f936a0.chunk.js",
+    "static/js/2.98f936a0.chunk.js.map": "/globesite/static/js/2.98f936a0.chunk.js.map",
     "static/js/3.63d1812e.chunk.js": "/globesite/static/js/3.63d1812e.chunk.js",
     "static/js/3.63d1812e.chunk.js.map": "/globesite/static/js/3.63d1812e.chunk.js.map",
     "index.html": "/globesite/index.html",
-    "static/css/main.3fee5aec.chunk.css.map": "/globesite/static/css/main.3fee5aec.chunk.css.map",
-    "static/js/2.44136ed2.chunk.js.LICENSE.txt": "/globesite/static/js/2.44136ed2.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/globesite/static/media/Overlock-Bold.17b1585e.ttf",
+    "static/css/main.8672dad2.chunk.css.map": "/globesite/static/css/main.8672dad2.chunk.css.map",
+    "static/js/2.98f936a0.chunk.js.LICENSE.txt": "/globesite/static/js/2.98f936a0.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/globesite/static/media/Overlock-Regular.18fa00b9.ttf",
     "static/media/background-mountain.79a53683.mp4": "/globesite/static/media/background-mountain.79a53683.mp4",
     "static/media/banner2.a32e9938.png": "/globesite/static/media/banner2.a32e9938.png",
+    "static/media/banner3.c71382f1.png": "/globesite/static/media/banner3.c71382f1.png",
+    "static/media/banner4.716a41c5.png": "/globesite/static/media/banner4.716a41c5.png",
     "static/media/globeboarding-transparent.66e0ffa8.png": "/globesite/static/media/globeboarding-transparent.66e0ffa8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.34fa7539.js",
-    "static/js/2.44136ed2.chunk.js",
-    "static/css/main.3fee5aec.chunk.css",
-    "static/js/main.56019152.chunk.js"
+    "static/js/2.98f936a0.chunk.js",
+    "static/css/main.8672dad2.chunk.css",
+    "static/js/main.cfa98462.chunk.js"
   ]
 }
