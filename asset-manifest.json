@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/globesite/static/css/main.9201c374.chunk.css",
-    "main.js": "/globesite/static/js/main.cfa98462.chunk.js",
-    "main.js.map": "/globesite/static/js/main.cfa98462.chunk.js.map",
-    "runtime-main.js": "/globesite/static/js/runtime-main.34fa7539.js",
-    "runtime-main.js.map": "/globesite/static/js/runtime-main.34fa7539.js.map",
-    "static/js/2.49d8890d.chunk.js": "/globesite/static/js/2.49d8890d.chunk.js",
-    "static/js/2.49d8890d.chunk.js.map": "/globesite/static/js/2.49d8890d.chunk.js.map",
-    "static/js/3.63d1812e.chunk.js": "/globesite/static/js/3.63d1812e.chunk.js",
-    "static/js/3.63d1812e.chunk.js.map": "/globesite/static/js/3.63d1812e.chunk.js.map",
+    "main.css": "/globesite/static/css/main.edec71f4.chunk.css",
+    "main.js": "/globesite/static/js/main.e8d15306.chunk.js",
+    "main.js.map": "/globesite/static/js/main.e8d15306.chunk.js.map",
+    "runtime-main.js": "/globesite/static/js/runtime-main.ea88e9da.js",
+    "runtime-main.js.map": "/globesite/static/js/runtime-main.ea88e9da.js.map",
+    "static/js/2.d7d65f23.chunk.js": "/globesite/static/js/2.d7d65f23.chunk.js",
+    "static/js/2.d7d65f23.chunk.js.map": "/globesite/static/js/2.d7d65f23.chunk.js.map",
+    "static/js/3.baa3a720.chunk.js": "/globesite/static/js/3.baa3a720.chunk.js",
+    "static/js/3.baa3a720.chunk.js.map": "/globesite/static/js/3.baa3a720.chunk.js.map",
     "index.html": "/globesite/index.html",
-    "static/css/main.9201c374.chunk.css.map": "/globesite/static/css/main.9201c374.chunk.css.map",
-    "static/js/2.49d8890d.chunk.js.LICENSE.txt": "/globesite/static/js/2.49d8890d.chunk.js.LICENSE.txt",
+    "static/css/main.edec71f4.chunk.css.map": "/globesite/static/css/main.edec71f4.chunk.css.map",
+    "static/js/2.d7d65f23.chunk.js.LICENSE.txt": "/globesite/static/js/2.d7d65f23.chunk.js.LICENSE.txt",
     "static/media/App.css": "/globesite/static/media/Overlock-Regular.18fa00b9.ttf",
     "static/media/background-mountain.79a53683.mp4": "/globesite/static/media/background-mountain.79a53683.mp4",
     "static/media/banner2.a32e9938.png": "/globesite/static/media/banner2.a32e9938.png",
@@ -20,9 +20,9 @@
     "static/media/globeboarding-transparent.66e0ffa8.png": "/globesite/static/media/globeboarding-transparent.66e0ffa8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.34fa7539.js",
-    "static/js/2.49d8890d.chunk.js",
-    "static/css/main.9201c374.chunk.css",
-    "static/js/main.cfa98462.chunk.js"
+    "static/js/runtime-main.ea88e9da.js",
+    "static/js/2.d7d65f23.chunk.js",
+    "static/css/main.edec71f4.chunk.css",
+    "static/js/main.e8d15306.chunk.js"
   ]
 }
