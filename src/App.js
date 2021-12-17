@@ -1,5 +1,6 @@
 import transparentLogo from './assets/globeboarding-transparent.png'
 import mountain from './assets/background-mountain.mp4'
+import { Helmet } from "react-helmet";
 
 import './App.css';
 import Features from './Features.js';
@@ -19,7 +20,7 @@ class App extends React.Component{
   render() { 
 
   let mountainVideo =     
-  <video autoPlay loop muted className="bkgrnd" id="video-bg"> 
+  <video autoPlay playsinline loop muted className="bkgrnd" id="video-bg"> 
     <source src={mountain} type="video/mp4" />
   </video>
 

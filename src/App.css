@@ -186,6 +186,8 @@
   bottom: 0;
   left: 0;
   right: 0;
+  grid-column-gap: 1vw;
+  padding: 1vw;
 }
 
 .grid-item {
@@ -200,9 +202,10 @@
 .grid-item p {
   text-align: center;
   color: black;
-  font-size: 1vw;
-  font-family: Overlock, sans-serif;
-  max-width: 140px;
+  font-size: 1.1vw;
+  font-family: Overlock-regular, sans-serif;
+  font-weight: lighter;
+  /* max-width: 140px; */
 }
 
 .grid-item h3 {
@@ -279,7 +282,7 @@
 
 .about p {
   font-family: Overlock-regular, sans-serif;
-  font-weight: bold;
+  /* font-weight: bold; */
   /* width: 100%; */
   font-size: 2vw;
 }
@@ -337,7 +340,7 @@
   font-weight: lighter;
 
   font-family: Overlock-regular, sans-serif;
-  max-width: 140px;
+  /* max-width: 140px; */
 }
 
 .grid-item-features-gray h3 {
@@ -369,7 +372,7 @@
   font-size: 1vw;
   font-weight: lighter;
   font-family: Overlock-regular, sans-serif;
-  max-width: 140px;
+  /* max-width: 140px; */
 }
 
 .grid-item-features-blue h3 {

@@ -30,7 +30,9 @@ class Memberships extends React.Component{
                         <br></br> <br></br>
                         This includes all of our economy level flight deals for all locations.
                         </p>
-                    {economyButton}</h3>
+                        {/* {economyButton} */}
+                        {joinFree}
+                    </h3>
                 </div>
                 <div className="grid-item-features-blue">               
                     <h3>Centurion
@@ -39,7 +41,7 @@ class Memberships extends React.Component{
                         Centurion is for you. 
                         </p>
                     {centurionButton}
-                    {joinFree}</h3>                        
+                    </h3>                        
                 </div>
             </div>
             
