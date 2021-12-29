@@ -13,7 +13,7 @@ class Memberships extends React.Component{
         let centurionMem = "https://dashboard.globeboarding.com/purchase/u9SukdAhI-dZDv_IMOmE9?password=CENTURION"
         let centurionButton = <a href={centurionMem} target="_blank"> <button type="button" className="btn-circle"><span className="cancel"> Subscribe </span></button> </a>
 
-        let joinFreeLink = "https://discord.gg/s7uNttCtVt"
+        let joinFreeLink = "https://discord.gg/4XYGW9apYG"
         let joinFree = <a href={joinFreeLink} target="_blank"> <button type="button" className="btn-circle"><span> Join Free! </span></button> </a>
 
         return (
